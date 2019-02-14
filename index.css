@@ -1,10 +1,115 @@
 body{
 
-  width: 100%;
-  height: 100%;
-background-color: #555;
-margin: 0;
-padding: 0;
 
+
+  background-color:blue;
+  height: 100%;
+  width: 100%;
+}
+
+.hade{
+
+
+    width: 100%;
+    height: 70px;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+
+  background-color:red;
+}
+
+
+.h1{
+
+
+  position: absolute;
+  left: 15%;
+  top: 10%;
 
 }
+.h2{
+
+
+  position: absolute;
+  left: 40%;
+  top: 10%;
+
+}
+
+
+
+.ime{
+height: 25%;
+width: 25%;
+
+position: absolute;
+
+top: 20%;
+left: 15%;
+
+}
+
+
+/*
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <title></title>
+
+
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+
+    <input type="text" name="kraloua" value="">
+
+<a href="main.php"><h1 class="taha">taha is the best and hi wel saty the best</h1></a>
+
+</form>
+  </body>
+</html>
+
+
+
+require 'phpmailer/PHPMailerAutoload.php';
+
+$mail = new PHPMailer();
+
+$mail->isSMTP();
+$mail->Host = "smtp.gmail.com";
+$mail->SMTPSecure = "ssl";
+$mail->Port = 465;
+$mail->SMTPAuth = true;
+$mail->Username = 'zedblqpam@gmail.com';
+$mail->Password = 'taha159357';
+$mail->Subject = 'taha';
+$mail->Body = 'taha is the best';
+
+
+//$mail->setFrom('zedbpro@gmail.com', 'Senaid Bacinovic');
+$mail->addAddress('kralouat@gmail.com');
+
+
+if ($mail->send())
+    echo "Mail sent";
+    else {
+      echo "Mail is not sent";
+
+    }
+
+
+
+    */
